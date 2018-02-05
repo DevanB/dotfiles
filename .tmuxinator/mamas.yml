@@ -1,0 +1,15 @@
+# ~/.tmuxinator/mamas.yml
+
+name: mamas-sauce
+root: ~/Projects/mamassauce/mamas-sauce
+startup_window: editor
+
+windows:
+  - editor:
+      panes:
+        - vim .
+  - processes:
+      layout: even-horizontal
+      panes:
+        -
+

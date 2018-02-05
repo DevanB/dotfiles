@@ -1,0 +1,9 @@
+# ~/.tmuxinator/whats-open.yml
+
+name: whats-open
+root: ~/Projects/whats-open
+
+
+windows:
+  - editor: vim .
+  - server: yarn start

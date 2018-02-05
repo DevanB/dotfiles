@@ -1,0 +1,21 @@
+# ~/.tmuxinator/cis.yml
+
+name: cisco
+root: ~/Envy/cisco/
+startup_window: processes
+
+windows:
+  - client:
+      root: ~/Envy/cisco/course-client
+      panes: 
+        - vim .
+  - server:
+      root: ~/Envy/cisco/course-server
+      panes:
+        - vim .
+  - processes:
+      root: ~/Envy/cisco/course-server
+      layout: even-horizontal
+      panes:
+        - 
+        - cd ../course-client

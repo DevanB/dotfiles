@@ -1,0 +1,128 @@
+snippet imr "Import React"
+import React from 'react'
+$0
+endsnippet
+
+snippet imrc "Import React, { Component }"
+import React, { Component } from 'react'
+$0
+endsnippet
+
+snippet impt "Import PropTypes"
+import PropTypes from 'prop-types';
+$0
+endsnippet
+
+snippet cc "Class Component"
+class $1 extends Component {
+	state = { $2 },
+	render() {
+		return (
+			$3
+		)
+	}
+}
+
+export default $1
+endsnippet
+
+snippet ccc "Class Component With State"
+class $1 extends Component {
+	constructor(props) {
+		super(props);
+		this.state = { $2 }
+	}
+
+	render() {
+		return (
+			$3
+		)
+	}
+}
+
+export default $1
+endsnippet
+
+snippet sfc "Stateless Function(al) Component)"
+const $1 = props => {
+	return (
+		$2
+	)
+}
+
+export default $1
+endsnippet
+
+snippet cdm "componentDidMount"
+componentDidMount() {
+	$1
+}
+endsnippet
+
+snippet cwm "componentWillMount"
+componentWillMount() {
+	$1
+}
+endsnippet
+
+snippet cwrp "componentWillReceiveProps"
+componentWillReceiveProps(nextProps): {
+	$1
+}
+endsnippet
+
+snippet scu "shouldComponentUpdate"
+shouldComponentUpdate(nextProps, nextState) {
+	$1
+}
+endsnippet
+
+snippet cwu "componentWillUpdate"
+componentWillUpdate(nextProps, nextState) {
+	$1
+}
+endsnippet
+
+snippet cdu "componentDidUpdate"
+componentDidUpdate(prevProps, prevState) {
+	$1
+}
+endsnippet
+
+snippet cwun "componentWillUnmount"
+componentWillUnmount() {
+	$1
+}
+endsnippet
+
+snippet cdc "componentDidCatch"
+componentDidCatch(error, info) {
+	$1
+}
+endsnippet
+
+snippet ss "setState"
+this.setState({ $1: $2 })
+endsnippet
+
+snippet ren "render"
+render() {
+	return (
+		$1
+	)
+}
+endsnippet
+
+snippet hoc "Higher Order Component"
+function | ($1) {
+	return class extends Component {
+		constructor(props) {
+			super(props)
+		}
+
+		render() {
+			return <$2 {...this.props} />
+		}
+	}
+}
+endsnippet

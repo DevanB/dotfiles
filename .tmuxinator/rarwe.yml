@@ -1,0 +1,12 @@
+# ~/.tmuxinator/rarwe.yml
+
+name: rarwe
+root: ~/Projects/rarwe/
+
+windows:
+  - editor: vim
+  - server:
+      layout: 1743,134x64,0,0[134x39,0,0,1,134x24,0,40,2]
+      panes:
+        - yarn start
+        - 

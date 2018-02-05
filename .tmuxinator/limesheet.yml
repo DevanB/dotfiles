@@ -1,0 +1,8 @@
+# ~/.tmuxinator/limesheet.yml
+
+name: limesheet
+root: ~/Projects/limesheet
+
+windows:
+  - editor: vim .
+  - server: yarn start

@@ -1,0 +1,27 @@
+# ~/.tmuxinator/ssn.yml
+
+name: shopshare-network
+root: ~/Projects/shopshare-network
+
+windows:
+  - editor: vim .
+  - signup:
+      root: ~/Projects/shopshare-network/SlickText-Signup
+      panes:
+        -
+  - landing: 
+      root: ~/Projects/shopshare-network/SlickText-Landing
+      panes: 
+        -
+  - config: 
+      root: ~/Projects/shopshare-network/SlickText-Config
+      panes: 
+        -
+  - surge: 
+      root: ~/Projects/shopshare-network/surge
+      panes: 
+        - 
+  - app:
+      root: ~/Projects/shopshare-network/app
+      panes:
+        -

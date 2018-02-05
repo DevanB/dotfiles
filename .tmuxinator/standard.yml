@@ -1,0 +1,9 @@
+# ~/.tmuxinator/standard.yml
+
+name: standard
+root: ~/
+
+windows:
+  - editor: 
+  - server: 
+

@@ -1,0 +1,9 @@
+# ~/.tmuxinator/fiss.yml
+
+name: find-the-iss
+root: ~/Envy/find-the-iss
+
+windows:
+  - editor: vim .
+  - ngrok: yarn ngrok
+  - server: yarn start
