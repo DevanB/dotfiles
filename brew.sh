@@ -16,7 +16,7 @@ brew install vim --with-override-system-vi
 
 # Install other useful binaries.
 brew install awscli
-bash-git-prompt
+brew install bash-git-prompt
 brew install cask-repair
 brew install chirp
 brew install git
@@ -58,8 +58,6 @@ mas install 1191449274
 mas install 409201541
 mas install 1055511498
 mas install 409203825
-
-
 
 # Remove outdated versions from the cellar.
 brew cleanup
