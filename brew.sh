@@ -34,24 +34,24 @@ brew install trash
 brew install tree
 brew install watchman
 
-brew install 1password
-brew install alfred
-brew install backblaze
-brew install dash
-brew install discord
-brew install docker
-brew install firefox-developer-edition
-brew install google-chrome
-brew install graphql-playground
-brew install iterm2
-brew install keybase
-brew install ngrok
-brew install plexamp
-brew install private-internet-access
-brew install slack-beta
-brew install sonos
-brew install spectacle
-brew install visual-studio-code-insiders
+brew cask install 1password
+brew cask install alfred
+brew cask install backblaze
+brew cask install dash
+brew cask install discord
+brew cask install docker
+brew cask install firefox-developer-edition
+brew cask install google-chrome
+brew cask install graphql-playground
+brew cask install iterm2
+brew cask install keybase
+brew cask install ngrok
+brew cask install plexamp
+brew cask install private-internet-access
+brew cask install slack-beta
+brew cask install sonos
+brew cask install spectacle
+brew cask install visual-studio-code-insiders
 
 mas install 451907568
 mas install 1191449274
