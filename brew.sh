@@ -17,7 +17,7 @@ brew install vim --with-override-system-vi
 # Install other useful binaries.
 brew install awscli
 brew install bash-git-prompt
-brew install cask-repair
+brew install vitorgalvao/tiny-scripts/cask-repair
 brew install chirp
 brew install git
 brew install git-secret
