@@ -15,6 +15,7 @@ brew install gnupg
 brew install vim --with-override-system-vi
 
 # Install other useful binaries.
+brew tap caskroom/drivers
 brew install awscli
 brew install bash-git-prompt
 brew install vitorgalvao/tiny-scripts/cask-repair
@@ -40,7 +41,7 @@ brew cask install backblaze
 brew cask install dash
 brew cask install discord
 brew cask install docker
-brew cask install firefox-developer-edition
+brew cask install caskroom/versions/firefox-developer-edition
 brew cask install google-chrome
 brew cask install graphql-playground
 brew cask install iterm2
@@ -51,7 +52,7 @@ brew cask install private-internet-access
 brew cask install slack-beta
 brew cask install sonos
 brew cask install spectacle
-brew cask install visual-studio-code-insiders
+brew cask install caskroom/versions/visual-studio-code-insiders
 
 mas install 451907568
 mas install 1191449274
