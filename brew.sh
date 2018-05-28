@@ -38,21 +38,25 @@ brew install watchman
 brew cask install 1password
 brew cask install alfred
 brew cask install backblaze
+brew cask install cloudytabs
 brew cask install dash
 brew cask install discord
 brew cask install docker
 brew cask install caskroom/versions/firefox-developer-edition
 brew cask install google-chrome
 brew cask install graphql-playground
+brew cask install harvest
 brew cask install iterm2
 brew cask install keybase
 brew cask install ngrok
 brew cask install plexamp
 brew cask install private-internet-access
+brew cask install sketch
 brew cask install slack-beta
 brew cask install sonos
 brew cask install spectacle
 brew cask install caskroom/versions/visual-studio-code-insiders
+brew cask install zeplin
 
 mas install 451907568
 mas install 1191449274
