@@ -36,7 +36,7 @@ brew install tree
 brew install watchman
 
 brew cask install 1password
-brew cask install alfred
+brew cask install adobe-creative-cloud
 brew cask install backblaze
 brew cask install cloudytabs
 brew cask install dash
@@ -58,11 +58,11 @@ brew cask install spectacle
 brew cask install caskroom/versions/visual-studio-code-insiders
 brew cask install zeplin
 
-mas install 451907568
-mas install 1191449274
-mas install 409201541
-mas install 1055511498
-mas install 409203825
+mas install 451907568 # Paprika
+mas install 1191449274 # Tooth Fairy
+mas install 497799835 # XCode
+mas install 1278508951 # Trello
 
 # Remove outdated versions from the cellar.
 brew cleanup
+brew cask cleanup
